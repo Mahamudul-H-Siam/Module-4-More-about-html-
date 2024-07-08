@@ -40,3 +40,18 @@ th, td{
     border: 1px solid black;
     padding: 5px 10px;
 }
+
+
+/* dropdown menu */
+
+nav li .dropdown{
+    display: none;  
+    padding-left: 0px;
+    position:absolute;
+    background-color: lightgrey;
+}
+
+nav li:hover> .dropdown{
+    display: block;
+    
+}
