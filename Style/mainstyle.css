@@ -11,3 +11,8 @@ footer{
     text-align: center;
     margin: top;
 }
+
+main>section> form> lable{
+    display: block;
+    margin-bottom: 10px;
+}
