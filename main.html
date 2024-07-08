@@ -56,16 +56,47 @@
 
         <section>
             <form action="">
-                <lable for="name">Your Name:
-                    <input type="text" name="" id="name" placeholder="Your Name">
-                </lable>
-                <lable for="email">Your Email:
-                    <input type="email" name="" id="email" placeholder="Your Email">
-                </lable>
-                <lable for="number">Your Number:
-                    <input type="number" name="" id="number" placeholder="Your Number">
-                </lable>
-                <lable></lable>
+                <label for="name">Your name:
+                    <input type="text" id="name" placeholder="Your name">
+                </label>
+                <label for="email">Your email:
+                    <input type="email" name="" id="email" placeholder="Your email">
+                </label>
+                <label for="number">Your Phone:
+                    <input type="number" name="" id="number" placeholder="Your phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one way to </legend>
+
+                    <label for="phone">
+                        <input type="radio" name="contact" id="phone">Mobile Phone
+                    </label>
+                    <label for="email">
+                        <input type="radio" name="contact" id="email">E-mail
+                    </label>
+                    <label for="livechat">
+                        <input type="radio" name="contact" id="livechat">Live Chat
+                    </label>
+                    <label for="VideoConferance">
+                        <input type="radio" name="contact" id="videoConferance">Video Conference
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick what you want?</legend>
+                    <label for="hireme">
+                        <input type="checkbox" name="QN" id="hireme">Do you want to hire me?
+                    </label>
+                    <label for="cv">
+                        <input type="checkbox" name="QN" id="cv">Do you want my CV?
+                    </label>
+                    <label for="join">
+                        <input type="checkbox" name="QN" id="join">Do you want to join my team?
+                    </label>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
             </form>
         </section>
     </main>
